@@ -27,6 +27,7 @@ img{
     border: 5px solid blue;
     border-radius: 35px;
     width: 100%;
+    height: 100%;
   }
 
 .label{
@@ -63,5 +64,23 @@ figcaption{
     }
     .grid img{
         border-radius: 0%;
+    }
+}
+
+@media(prefers-reduced-motion){
+    html{
+        scroll-behavior: initial;
+    }
+}
+@media(prefers-color-scheme: dark){
+    body{
+        background-color: blue;
+        color: #dedede;
+    }
+    img{
+        border: 5px solid #dedede;
+    }
+    a{
+        color: #dedede;
     }
 }

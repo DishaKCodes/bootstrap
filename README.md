@@ -1,2 +1,2 @@
 # bootstrap
-just me getting started with bootstrap
+the final project for the responsive design course
